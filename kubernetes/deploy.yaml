@@ -58,9 +58,9 @@ metadata:
 spec:
   ports:
     - name: chatgpt-web
-      port: 3002
+      port: 4002
       protocol: TCP
-      targetPort: 3002
+      targetPort: 4002
   selector:
     app: chatgpt-web
   type: ClusterIP
